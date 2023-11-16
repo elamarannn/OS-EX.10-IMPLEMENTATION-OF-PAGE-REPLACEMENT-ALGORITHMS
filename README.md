@@ -1,12 +1,9 @@
 # OS-EX.10-IMPLEMENTATION-OF-PAGE-REPLACEMENT-ALGORITHMS
 
-(Follow template provided in CPU Scheduling algorithms for sub divisions)
-
-AIM:
+## AIM:
 To write a C program to implement Page Replacement technique using FIFO
 
-
-ALGORITHM:
+## ALGORITHM:
 1. Start the program.
 2. Get the number of pages and their sequence from the user
 3. Get the number of available page frames from the user.
@@ -17,7 +14,7 @@ ALGORITHM:
 8. Print the number of page faults.
 9. Stop the program.
 
-PROGRAM:
+## PROGRAM:
 ```
 #include<stdio.h>
 int main()
@@ -55,11 +52,11 @@ int main()
     printf("\nPage Fault Is %d", count);
 }
 ```
-OUTPUT:
+## OUTPUT:
 ![280456800-fc12b757-d281-4994-8ddd-784beba39690](https://github.com/elamarannn/OS-EX.10-IMPLEMENTATION-OF-PAGE-REPLACEMENT-ALGORITHMS/assets/113497531/bf9c75d7-e03e-4ba0-a7d8-f56fe0ee050e)
 
 
-RESULT:
+## RESULT:
 Thus the implementation of LRU page replacement is successfully executed.
 
 # PAGE REPLACEMENT ALGORITHM (OPR)
